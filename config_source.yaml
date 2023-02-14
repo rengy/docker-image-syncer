@@ -4,3 +4,6 @@ auth:
     password: $PASSWORD
 images:
   registry.k8s.io/ingress-nginx/controller: rengy/ingress-nginx-controller
+  registry.k8s.io/ingress-nginx/opentelemetry: rengy/ingress-nginx-opentelemetry
+  registry.k8s.io/ingress-nginx/kube-webhook-certgen: rengy/kube-webhook-certgen
+  registry.k8s.io/defaultbackend-amd64: rengy/defaultbackend-amd64
