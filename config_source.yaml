@@ -1,0 +1,6 @@
+auth:
+  registry.cn-shenzhen.aliyuncs.com:
+    username: $USERNAME
+    password: $PASSWORD
+images:
+  registry.k8s.io/ingress-nginx/controller: rengy/ingress-nginx-controller
