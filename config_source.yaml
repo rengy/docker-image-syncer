@@ -7,9 +7,9 @@ images:
   quay.io/jetstack/cert-manager-webhook:v1.9.1,v1.10.2,v1.11.0: registry.cn-beijing.aliyuncs.com/paas-k8s/cert-manager-webhook
   quay.io/jetstack/cert-manager-cainjector:v1.9.1,v1.10.2,v1.11.0: registry.cn-beijing.aliyuncs.com/paas-k8s/cert-manager-cainjector
   quay.io/jetstack/cert-manager-ctl:v1.9.1,v1.10.2,v1.11.0: registry.cn-beijing.aliyuncs.com/paas-k8s/cert-manager-ctl
-  k8s.gcr.io/sig-storage/local-volume-provisioner:v2.4.0: registry.cn-beijing.aliyuncs.com/paas-k8s/local-volume-provisioner
+  k8s.gcr.io/sig-storage/local-volume-provisioner:v2.4.0,v2.5.0: registry.cn-beijing.aliyuncs.com/paas-k8s/local-volume-provisioner
   k8s.gcr.io/sig-storage/nfs-subdir-external-provisioner:v4.0.2: registry.cn-beijing.aliyuncs.com/paas-k8s/nfs-subdir-external-provisioner
-  registry.k8s.io/ingress-nginx/controller:v1.6.3: registry.cn-beijing.aliyuncs.com/paas-k8s/ingress-nginx-controller
+  registry.k8s.io/ingress-nginx/controller:v1.6.3,v1.6.4: registry.cn-beijing.aliyuncs.com/paas-k8s/ingress-nginx-controller
   registry.k8s.io/ingress-nginx/opentelemetry:v20230107-helm-chart-4.4.2-2-g96b3d2165: registry.cn-beijing.aliyuncs.com/paas-k8s/ingress-nginx-opentelemetry
   registry.k8s.io/ingress-nginx/kube-webhook-certgen:v20220916-gd32f8c343: registry.cn-beijing.aliyuncs.com/paas-k8s/kube-webhook-certgen
   registry.k8s.io/defaultbackend-amd64:1.5: registry.cn-beijing.aliyuncs.com/paas-k8s/defaultbackend-amd64
