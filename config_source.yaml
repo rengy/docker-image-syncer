@@ -37,6 +37,9 @@ images:
 #   mongo-express:1.0.0-alpha: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express
 #   bitnami/mongodb-exporter:0.37.0: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter
 #   zookeeper:3.8.1: registry.cn-beijing.aliyuncs.com/officialimage/zookeeper
+  zookeeper:3.5.10: registry.cn-beijing.aliyuncs.com/officialimage/zookeeper
+  zookeeper:3.6.4: registry.cn-beijing.aliyuncs.com/officialimage/zookeeper
+  zookeeper:3.7.1: registry.cn-beijing.aliyuncs.com/officialimage/zookeeper
 #   docker.elastic.co/elasticsearch/elasticsearch:8.7.1: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch
 #   docker.elastic.co/kibana/kibana:8.7.1: registry.cn-beijing.aliyuncs.com/officialimage/kibana
 #   docker.elastic.co/logstash/logstash:8.7.1: registry.cn-beijing.aliyuncs.com/officialimage/logstash
