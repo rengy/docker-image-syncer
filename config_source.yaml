@@ -30,11 +30,11 @@ images:
 #   eclipse-temurin:17.0.7_7-jre-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
 #   eclipse-temurin:17.0.7_7-jdk-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
 #   eclipse-temurin:8u372-b07-jdk-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
-  redis:7.0.12-alpine,6.2.13-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
-  redislabs/redisinsight:1.14.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight
-  oliver006/redis_exporter:v1.51.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
-#   mysql:8.0.33-debian: registry.cn-beijing.aliyuncs.com/officialimage/mysql
-#   prom/mysqld-exporter:v0.14.0: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporte
+#  redis:7.0.12-alpine,6.2.13-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
+#  redislabs/redisinsight:1.14.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight
+#  oliver006/redis_exporter:v1.51.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
+   mysql:8.0.34-debian: registry.cn-beijing.aliyuncs.com/officialimage/mysql
+   prom/mysqld-exporter:v0.15.0: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporte
 #   mongo:4.4.23: registry.cn-beijing.aliyuncs.com/officialimage/mongo
 #   mongo-express:1.0.0-alpha: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express
 #   bitnami/mongodb-exporter:0.39.0: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter
