@@ -26,10 +26,7 @@ images:
 #   goharbor/harbor-db:v2.7.0: registry.cn-beijing.aliyuncs.com/paas-k8s/harbor-db
 #   goharbor/redis-photon:v2.7.0: registry.cn-beijing.aliyuncs.com/paas-k8s/harbor-redis-photon
 #   goharbor/harbor-exporter:v2.7.0: registry.cn-beijing.aliyuncs.com/paas-k8s/harbor-exporter
-#   eclipse-temurin:17.0.7_7-jdk-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
-#   eclipse-temurin:17.0.7_7-jre-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
-#   eclipse-temurin:17.0.7_7-jdk-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
-#   eclipse-temurin:8u372-b07-jdk-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
+   eclipse-temurin:17.0.8_7-jdk-alpine,17.0.8_7-jre-alpine,17.0.8_7-jdk-jammy,8u372-b07-jdk-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
 #   redis:7.0.12-alpine,6.2.13-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
 #   redislabs/redisinsight:1.14.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight
 #   oliver006/redis_exporter:v1.51.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
@@ -44,7 +41,7 @@ images:
 #   docker.elastic.co/logstash/logstash:8.8.2: registry.cn-beijing.aliyuncs.com/officialimage/logstash
 #   docker.elastic.co/beats/metricbeat:8.8.2: registry.cn-beijing.aliyuncs.com/officialimage/metricbeat
 #   bitnami/elasticsearch-exporter:1.6.0: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch-exporter
-   grafana/grafana:9.5.7,10.0.3: registry.cn-beijing.aliyuncs.com/officialimage/grafana
+#   grafana/grafana:9.5.7,10.0.3: registry.cn-beijing.aliyuncs.com/officialimage/grafana
 #   prom/prometheus:v2.46.0: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
 #   prom/pushgateway:v1.6.0: registry.cn-beijing.aliyuncs.com/officialimage/pushgateway
 #   solr:9.2.1: registry.cn-beijing.aliyuncs.com/officialimage/solr
