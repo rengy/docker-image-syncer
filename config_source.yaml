@@ -26,7 +26,7 @@ images:
 #   goharbor/harbor-db:v2.7.0: registry.cn-beijing.aliyuncs.com/paas-k8s/harbor-db
 #   goharbor/redis-photon:v2.7.0: registry.cn-beijing.aliyuncs.com/paas-k8s/harbor-redis-photon
 #   goharbor/harbor-exporter:v2.7.0: registry.cn-beijing.aliyuncs.com/paas-k8s/harbor-exporter
-   eclipse-temurin:17.0.8_7-jdk-alpine,17.0.8_7-jre-alpine,17.0.8_7-jdk-jammy,8u372-b07-jdk-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
+#   eclipse-temurin:17.0.8_7-jdk-alpine,17.0.8_7-jre-alpine,17.0.8_7-jdk-jammy,8u372-b07-jdk-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
 #   redis:7.0.12-alpine,6.2.13-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
 #   redislabs/redisinsight:1.14.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight
 #   oliver006/redis_exporter:v1.51.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
@@ -35,7 +35,7 @@ images:
 #   mongo:4.4.23: registry.cn-beijing.aliyuncs.com/officialimage/mongo
 #   mongo-express:1.0.0-alpha: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express
 #   bitnami/mongodb-exporter:0.39.0: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter
-#   zookeeper:3.8.1: registry.cn-beijing.aliyuncs.com/officialimage/zookeeper
+   zookeeper:3.8.2: registry.cn-beijing.aliyuncs.com/officialimage/zookeeper
 #   docker.elastic.co/elasticsearch/elasticsearch:8.8.2: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch
 #   docker.elastic.co/kibana/kibana:8.8.2: registry.cn-beijing.aliyuncs.com/officialimage/kibana
 #   docker.elastic.co/logstash/logstash:8.8.2: registry.cn-beijing.aliyuncs.com/officialimage/logstash
