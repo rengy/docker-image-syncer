@@ -44,6 +44,6 @@ images:
 #   grafana/grafana:10.1.1,10.0.5: registry.cn-beijing.aliyuncs.com/officialimage/grafana
 #   prom/prometheus:v2.47.0: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
 #   prom/pushgateway:v1.6.1: registry.cn-beijing.aliyuncs.com/officialimage/pushgateway
-   solr:9.3.0: registry.cn-beijing.aliyuncs.com/officialimage/solr
-#   quay.io/minio/minio:RELEASE.2023-07-07T07-13-57Z: registry.cn-beijing.aliyuncs.com/officialimage/minio
-#   quay.io/minio/mc:RELEASE.2023-06-28T21-54-17Z: registry.cn-beijing.aliyuncs.com/officialimage/minio-mc
+#   solr:9.3.0: registry.cn-beijing.aliyuncs.com/officialimage/solr
+   quay.io/minio/minio:RELEASE.2023-09-27T15-22-50Z: registry.cn-beijing.aliyuncs.com/officialimage/minio
+   quay.io/minio/mc:RELEASE.2023-09-28T17-48-30Z: registry.cn-beijing.aliyuncs.com/officialimage/minio-mc
