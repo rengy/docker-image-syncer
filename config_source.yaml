@@ -26,13 +26,13 @@ images:
 #   goharbor/harbor-db:v2.7.0: registry.cn-beijing.aliyuncs.com/paas-k8s/harbor-db
 #   goharbor/redis-photon:v2.7.0: registry.cn-beijing.aliyuncs.com/paas-k8s/harbor-redis-photon
 #   goharbor/harbor-exporter:v2.7.0: registry.cn-beijing.aliyuncs.com/paas-k8s/harbor-exporter
-#   eclipse-temurin:17.0.8_7-jdk-alpine,17.0.8_7-jre-alpine,17.0.8_7-jdk-jammy,8u372-b07-jdk-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
+   eclipse-temurin:17.0.8.1_1-jre-alpine,17.0.8.1_1-jdk-alpine,17.0.8.1_1-jre-jammy,17.0.8.1_1-jdk-jammy,8u382-b05-jdk-alpine,8u382-b05-jre-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
 #   redis:7.0.12-alpine,6.2.13-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
 #   redislabs/redisinsight:1.14.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight
 #   oliver006/redis_exporter:v1.51.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
 #   mysql:8.0.34-debian: registry.cn-beijing.aliyuncs.com/officialimage/mysql
 #   prom/mysqld-exporter:v0.15.0: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter
-   mongo:4.4.25: registry.cn-beijing.aliyuncs.com/officialimage/mongo
+#   mongo:4.4.25: registry.cn-beijing.aliyuncs.com/officialimage/mongo
 #   mongo-express:1.0.0-alpha: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express
 #   bitnami/mongodb-exporter:0.39.0: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter
 #   zookeeper:3.8.2: registry.cn-beijing.aliyuncs.com/officialimage/zookeeper
