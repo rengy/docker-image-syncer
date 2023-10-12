@@ -27,7 +27,8 @@ images:
 #   goharbor/redis-photon:v2.7.0: registry.cn-beijing.aliyuncs.com/paas-k8s/harbor-redis-photon
 #   goharbor/harbor-exporter:v2.7.0: registry.cn-beijing.aliyuncs.com/paas-k8s/harbor-exporter
 #   eclipse-temurin:17.0.8.1_1-jre-alpine,17.0.8.1_1-jdk-alpine,17.0.8.1_1-jre-jammy,17.0.8.1_1-jdk-jammy,8u382-b05-jdk-alpine,8u382-b05-jre-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
-   redis:7.2.1-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
+    eclipse-temurin:21_35-jdk-alpine,21_35-jre-alpine,21_35-jdk-jammy,21_35-jre-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
+#   redis:7.2.1-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
 #   redislabs/redisinsight:1.14.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight
 #   oliver006/redis_exporter:v1.51.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
 #   mysql:8.0.34-debian: registry.cn-beijing.aliyuncs.com/officialimage/mysql
