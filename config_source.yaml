@@ -27,7 +27,7 @@ images:
 #   goharbor/redis-photon:v2.7.0: registry.cn-beijing.aliyuncs.com/paas-k8s/harbor-redis-photon
 #   goharbor/harbor-exporter:v2.7.0: registry.cn-beijing.aliyuncs.com/paas-k8s/harbor-exporter
 #   eclipse-temurin:17.0.8.1_1-jre-alpine,17.0.8.1_1-jdk-alpine,17.0.8.1_1-jre-jammy,17.0.8.1_1-jdk-jammy,8u382-b05-jdk-alpine,8u382-b05-jre-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
-    eclipse-temurin:21_35-jdk-alpine,21_35-jre-alpine,21_35-jdk-jammy,21_35-jre-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
+#   eclipse-temurin:21_35-jdk-alpine,21_35-jre-alpine,21_35-jdk-jammy,21_35-jre-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
 #   redis:7.2.1-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
 #   redislabs/redisinsight:1.14.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight
 #   oliver006/redis_exporter:v1.51.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
@@ -42,7 +42,7 @@ images:
 #   docker.elastic.co/logstash/logstash:8.10.3: registry.cn-beijing.aliyuncs.com/officialimage/logstash
 #   docker.elastic.co/beats/metricbeat:8.10.3: registry.cn-beijing.aliyuncs.com/officialimage/metricbeat
 #   bitnami/elasticsearch-exporter:1.6.0: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch-exporter
-#   grafana/grafana:10.1.4,10.0.8: registry.cn-beijing.aliyuncs.com/officialimage/grafana
+  grafana/grafana:10.1.5,10.0.9: registry.cn-beijing.aliyuncs.com/officialimage/grafana
 #   prom/prometheus:v2.47.1: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
 #   prom/pushgateway:v1.6.2: registry.cn-beijing.aliyuncs.com/officialimage/pushgateway
 #   solr:9.3.0: registry.cn-beijing.aliyuncs.com/officialimage/solr
