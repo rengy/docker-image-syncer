@@ -27,27 +27,27 @@ images:
 #   goharbor/redis-photon:v2.7.0: registry.cn-beijing.aliyuncs.com/paas-k8s/harbor-redis-photon
 #   goharbor/harbor-exporter:v2.7.0: registry.cn-beijing.aliyuncs.com/paas-k8s/harbor-exporter
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/eclipse-temurin/tags?page_size=50
-  eclipse-temurin:17.0.9_9-jre-alpine,17.0.9_9-jdk-alpine,17.0.9_9-jdk-jammy,17.0.8.1_1-jre-jammy,8u392-b08-jdk-alpine,8u392-b08-jre-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
-  eclipse-temurin:21.0.1_12-jre-alpine,21.0.1_12-jdk-alpine,21.0.1_12-jdk-jammy,21.0.1_12-jre-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
+#   eclipse-temurin:17.0.9_9-jre-alpine,17.0.9_9-jdk-alpine,17.0.9_9-jdk-jammy,17.0.8.1_1-jre-jammy,8u392-b08-jdk-alpine,8u392-b08-jre-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
+#   eclipse-temurin:21.0.1_12-jre-alpine,21.0.1_12-jdk-alpine,21.0.1_12-jdk-jammy,21.0.1_12-jre-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/redis/tags?page_size=50
-  redis:7.2.3-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
+#   redis:7.2.3-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
     # https://dockerreg.bitdata.win/v2/namespaces/redislabs/repositories/redisinsight/tags?page_size=50
 #   redislabs/redisinsight:1.14.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight
-  oliver006/redis_exporter:v1.55.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
+#   oliver006/redis_exporter:v1.55.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
 #   mysql:8.0.35-debian: registry.cn-beijing.aliyuncs.com/officialimage/mysql
-  prom/mysqld-exporter:v0.15.1: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter
-  mongo:4.4.26: registry.cn-beijing.aliyuncs.com/officialimage/mongo
+#   prom/mysqld-exporter:v0.15.1: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter
+#   mongo:4.4.26: registry.cn-beijing.aliyuncs.com/officialimage/mongo
 #   mongo-express:1.0.0-20-alpine3.18: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express
-  bitnami/mongodb-exporter:0.40.0: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter
+#   bitnami/mongodb-exporter:0.40.0: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter
 #   zookeeper:3.8.3: registry.cn-beijing.aliyuncs.com/officialimage/zookeeper
-  docker.elastic.co/elasticsearch/elasticsearch:8.11.3: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch
-  docker.elastic.co/kibana/kibana:8.11.3: registry.cn-beijing.aliyuncs.com/officialimage/kibana
-  docker.elastic.co/logstash/logstash:8.11.3: registry.cn-beijing.aliyuncs.com/officialimage/logstash
-  docker.elastic.co/beats/metricbeat:8.11.3: registry.cn-beijing.aliyuncs.com/officialimage/metricbeat
-#   bitnami/elasticsearch-exporter:1.6.0: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch-exporter
-  grafana/grafana:10.2.2: registry.cn-beijing.aliyuncs.com/officialimage/grafana
-  prom/prometheus:v2.48.1: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
+#   docker.elastic.co/elasticsearch/elasticsearch:8.11.3: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch
+#   docker.elastic.co/kibana/kibana:8.11.3: registry.cn-beijing.aliyuncs.com/officialimage/kibana
+#   docker.elastic.co/logstash/logstash:8.11.3: registry.cn-beijing.aliyuncs.com/officialimage/logstash
+#   docker.elastic.co/beats/metricbeat:8.11.3: registry.cn-beijing.aliyuncs.com/officialimage/metricbeat
+  bitnami/elasticsearch-exporter:1.7.0: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch-exporter
+  grafana/grafana:10.2.3: registry.cn-beijing.aliyuncs.com/officialimage/grafana
+#   prom/prometheus:v2.48.1: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
 #   prom/pushgateway:v1.6.2: registry.cn-beijing.aliyuncs.com/officialimage/pushgateway
 #   solr:9.4.0: registry.cn-beijing.aliyuncs.com/officialimage/solr
-  quay.io/minio/minio:RELEASE.2023-12-14T18-51-57Z: registry.cn-beijing.aliyuncs.com/officialimage/minio
-  quay.io/minio/mc:RELEASE.2023-12-14T00-37-41Z: registry.cn-beijing.aliyuncs.com/officialimage/minio-mc
+#   quay.io/minio/minio:RELEASE.2023-12-14T18-51-57Z: registry.cn-beijing.aliyuncs.com/officialimage/minio
+#   quay.io/minio/mc:RELEASE.2023-12-14T00-37-41Z: registry.cn-beijing.aliyuncs.com/officialimage/minio-mc
