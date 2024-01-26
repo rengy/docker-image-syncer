@@ -27,8 +27,8 @@ images:
 #   goharbor/redis-photon:v2.7.0: registry.cn-beijing.aliyuncs.com/paas-k8s/harbor-redis-photon
 #   goharbor/harbor-exporter:v2.7.0: registry.cn-beijing.aliyuncs.com/paas-k8s/harbor-exporter
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/eclipse-temurin/tags?page_size=50
-#   eclipse-temurin:17.0.9_9-jre-alpine,17.0.9_9-jdk-alpine,17.0.9_9-jdk-jammy,17.0.8.1_1-jre-jammy,8u392-b08-jdk-alpine,8u392-b08-jre-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
-#   eclipse-temurin:21.0.1_12-jre-alpine,21.0.1_12-jdk-alpine,21.0.1_12-jdk-jammy,21.0.1_12-jre-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
+  eclipse-temurin:17.0.10_7-jre-alpine,17.0.10_7-jdk-alpine,17.0.10_7-jdk-jammy,8u402-b06-jdk-alpine,8u402-b06-jre-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
+  eclipse-temurin:21.0.2_13-jre-alpine,21.0.2_13-jdk-alpine,21.0.2_13-jdk-jammy,21.0.2_13-jre-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/redis/tags?page_size=50
 #   redis:7.2.3-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
     # https://dockerreg.bitdata.win/v2/namespaces/redislabs/repositories/redisinsight/tags?page_size=50
