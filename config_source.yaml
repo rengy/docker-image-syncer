@@ -37,7 +37,7 @@ images:
 #   mysql:8.0.36-debian: registry.cn-beijing.aliyuncs.com/officialimage/mysql
 #   prom/mysqld-exporter:v0.15.1: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/mongo/tags?page_size=50
-#   mongo:4.4.28: registry.cn-beijing.aliyuncs.com/officialimage/mongo
+  mongo:4.4.29: registry.cn-beijing.aliyuncs.com/officialimage/mongo
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/mongo-express/tags?page_size=50
 #   mongo-express:1.0.2-20-alpine3.19: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express
     # https://dockerreg.bitdata.win/v2/namespaces/bitnami/repositories/mongodb-exporter/tags?page_size=50
@@ -55,6 +55,6 @@ images:
 #   prom/prometheus:v2.48.1: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
     # https://dockerreg.bitdata.win/v2/namespaces/prom/repositories/pushgateway/tags?page_size=50
 #   prom/pushgateway:v1.6.2: registry.cn-beijing.aliyuncs.com/officialimage/pushgateway
-  solr:9.5.0: registry.cn-beijing.aliyuncs.com/officialimage/solr
-  quay.io/minio/minio:RELEASE.2024-02-17T01-15-57Z: registry.cn-beijing.aliyuncs.com/officialimage/minio
-  quay.io/minio/mc:RELEASE.2024-02-16T11-05-48Z: registry.cn-beijing.aliyuncs.com/officialimage/minio-mc
+#   solr:9.5.0: registry.cn-beijing.aliyuncs.com/officialimage/solr
+  quay.io/minio/minio:RELEASE.2024-02-26T09-33-48Z: registry.cn-beijing.aliyuncs.com/officialimage/minio
+  quay.io/minio/mc:RELEASE.2024-02-24T01-33-20Z: registry.cn-beijing.aliyuncs.com/officialimage/minio-mc
