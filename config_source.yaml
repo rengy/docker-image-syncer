@@ -30,10 +30,10 @@ images:
 #   eclipse-temurin:17.0.10_7-jre-alpine,17.0.10_7-jdk-alpine,17.0.10_7-jdk-jammy,8u402-b06-jdk-alpine,8u402-b06-jre-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
 #   eclipse-temurin:21.0.2_13-jre-alpine,21.0.2_13-jdk-alpine,21.0.2_13-jdk-jammy,21.0.2_13-jre-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/redis/tags?page_size=50
-#   redis:7.2.3-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
+  redis:7.2.4-alpine,7.0.15-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
     # https://dockerreg.bitdata.win/v2/namespaces/redislabs/repositories/redisinsight/tags?page_size=50
-#   redislabs/redisinsight:1.14.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight
-#   oliver006/redis_exporter:v1.55.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
+  redis/redisinsight:2.44.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight
+  oliver006/redis_exporter:v1.58.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
 #   mysql:8.0.36-debian: registry.cn-beijing.aliyuncs.com/officialimage/mysql
 #   prom/mysqld-exporter:v0.15.1: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/mongo/tags?page_size=50
@@ -42,7 +42,7 @@ images:
 #   mongo-express:1.0.2-20-alpine3.19: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express
     # https://dockerreg.bitdata.win/v2/namespaces/bitnami/repositories/mongodb-exporter/tags?page_size=50
 #   bitnami/mongodb-exporter:0.40.0: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter
-  zookeeper:3.8.4: registry.cn-beijing.aliyuncs.com/officialimage/zookeeper
+#   zookeeper:3.8.4: registry.cn-beijing.aliyuncs.com/officialimage/zookeeper
 #   docker.elastic.co/elasticsearch/elasticsearch:8.11.4: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch
 #   docker.elastic.co/kibana/kibana:8.11.4: registry.cn-beijing.aliyuncs.com/officialimage/kibana
 #   docker.elastic.co/logstash/logstash:8.11.4: registry.cn-beijing.aliyuncs.com/officialimage/logstash
