@@ -43,18 +43,18 @@ images:
     # https://dockerreg.bitdata.win/v2/namespaces/bitnami/repositories/mongodb-exporter/tags?page_size=50
 #   bitnami/mongodb-exporter:0.40.0: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter
 #   zookeeper:3.8.4: registry.cn-beijing.aliyuncs.com/officialimage/zookeeper
-  docker.elastic.co/elasticsearch/elasticsearch:8.12.2: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch
-  docker.elastic.co/kibana/kibana:8.12.2: registry.cn-beijing.aliyuncs.com/officialimage/kibana
-  docker.elastic.co/logstash/logstash:8.12.2: registry.cn-beijing.aliyuncs.com/officialimage/logstash
-  docker.elastic.co/beats/metricbeat:8.12.2: registry.cn-beijing.aliyuncs.com/officialimage/metricbeat
+#   docker.elastic.co/elasticsearch/elasticsearch:8.12.2: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch
+#   docker.elastic.co/kibana/kibana:8.12.2: registry.cn-beijing.aliyuncs.com/officialimage/kibana
+#   docker.elastic.co/logstash/logstash:8.12.2: registry.cn-beijing.aliyuncs.com/officialimage/logstash
+#   docker.elastic.co/beats/metricbeat:8.12.2: registry.cn-beijing.aliyuncs.com/officialimage/metricbeat
     # https://dockerreg.bitdata.win/v2/namespaces/bitnami/repositories/elasticsearch-exporter/tags?page_size=50
-  bitnami/elasticsearch-exporter:1.7.0: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch-exporter
+#   bitnami/elasticsearch-exporter:1.7.0: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch-exporter
     # https://dockerreg.bitdata.win/v2/namespaces/grafana/repositories/grafana/tags?page_size=50
-  grafana/grafana:10.2.6: registry.cn-beijing.aliyuncs.com/officialimage/grafana
+#   grafana/grafana:10.2.6: registry.cn-beijing.aliyuncs.com/officialimage/grafana
     # https://dockerreg.bitdata.win/v2/namespaces/prom/repositories/prometheus/tags?page_size=50
-  prom/prometheus:v2.51.0: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
+#   prom/prometheus:v2.51.0: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
     # https://dockerreg.bitdata.win/v2/namespaces/prom/repositories/pushgateway/tags?page_size=50
-#   prom/pushgateway:v1.6.2: registry.cn-beijing.aliyuncs.com/officialimage/pushgateway
+  prom/pushgateway:v1.7.0: registry.cn-beijing.aliyuncs.com/officialimage/pushgateway
 #   solr:9.5.0: registry.cn-beijing.aliyuncs.com/officialimage/solr
-  quay.io/minio/minio:RELEASE.2024-03-26T22-10-45Z: registry.cn-beijing.aliyuncs.com/officialimage/minio
-  quay.io/minio/mc:RELEASE.2024-03-25T16-41-14Z: registry.cn-beijing.aliyuncs.com/officialimage/minio-mc
+#   quay.io/minio/minio:RELEASE.2024-03-26T22-10-45Z: registry.cn-beijing.aliyuncs.com/officialimage/minio
+#   quay.io/minio/mc:RELEASE.2024-03-25T16-41-14Z: registry.cn-beijing.aliyuncs.com/officialimage/minio-mc
