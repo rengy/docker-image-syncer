@@ -30,10 +30,10 @@ images:
 #   eclipse-temurin:17.0.10_7-jre-alpine,17.0.10_7-jdk-alpine,17.0.10_7-jdk-jammy,8u402-b06-jdk-alpine,8u402-b06-jre-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
 #   eclipse-temurin:21.0.2_13-jre-alpine,21.0.2_13-jdk-alpine,21.0.2_13-jdk-jammy,21.0.2_13-jre-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/redis/tags?page_size=50
-  redis:7.2.4-alpine,7.0.15-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
+#   redis:7.2.4-alpine,7.0.15-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
     # https://dockerreg.bitdata.win/v2/namespaces/redislabs/repositories/redisinsight/tags?page_size=50
-  redis/redisinsight:2.44.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight
-  oliver006/redis_exporter:v1.58.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
+#   redis/redisinsight:2.44.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight
+#   oliver006/redis_exporter:v1.58.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
 #   mysql:8.0.36-debian: registry.cn-beijing.aliyuncs.com/officialimage/mysql
 #   prom/mysqld-exporter:v0.15.1: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/mongo/tags?page_size=50
@@ -43,18 +43,18 @@ images:
     # https://dockerreg.bitdata.win/v2/namespaces/bitnami/repositories/mongodb-exporter/tags?page_size=50
 #   bitnami/mongodb-exporter:0.40.0: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter
 #   zookeeper:3.8.4: registry.cn-beijing.aliyuncs.com/officialimage/zookeeper
-#   docker.elastic.co/elasticsearch/elasticsearch:8.11.4: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch
-#   docker.elastic.co/kibana/kibana:8.11.4: registry.cn-beijing.aliyuncs.com/officialimage/kibana
-#   docker.elastic.co/logstash/logstash:8.11.4: registry.cn-beijing.aliyuncs.com/officialimage/logstash
-#   docker.elastic.co/beats/metricbeat:8.11.4: registry.cn-beijing.aliyuncs.com/officialimage/metricbeat
+  docker.elastic.co/elasticsearch/elasticsearch:8.12.2: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch
+  docker.elastic.co/kibana/kibana:8.12.2: registry.cn-beijing.aliyuncs.com/officialimage/kibana
+  docker.elastic.co/logstash/logstash:8.12.2: registry.cn-beijing.aliyuncs.com/officialimage/logstash
+  docker.elastic.co/beats/metricbeat:8.12.2: registry.cn-beijing.aliyuncs.com/officialimage/metricbeat
     # https://dockerreg.bitdata.win/v2/namespaces/bitnami/repositories/elasticsearch-exporter/tags?page_size=50
-#   bitnami/elasticsearch-exporter:1.7.0: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch-exporter
+  bitnami/elasticsearch-exporter:1.7.0: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch-exporter
     # https://dockerreg.bitdata.win/v2/namespaces/grafana/repositories/grafana/tags?page_size=50
-#   grafana/grafana:10.2.3: registry.cn-beijing.aliyuncs.com/officialimage/grafana
+  grafana/grafana:10.2.6: registry.cn-beijing.aliyuncs.com/officialimage/grafana
     # https://dockerreg.bitdata.win/v2/namespaces/prom/repositories/prometheus/tags?page_size=50
-#   prom/prometheus:v2.48.1: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
+  prom/prometheus:v2.51.0: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
     # https://dockerreg.bitdata.win/v2/namespaces/prom/repositories/pushgateway/tags?page_size=50
 #   prom/pushgateway:v1.6.2: registry.cn-beijing.aliyuncs.com/officialimage/pushgateway
 #   solr:9.5.0: registry.cn-beijing.aliyuncs.com/officialimage/solr
-#   quay.io/minio/minio:RELEASE.2024-02-26T09-33-48Z: registry.cn-beijing.aliyuncs.com/officialimage/minio
-#   quay.io/minio/mc:RELEASE.2024-02-24T01-33-20Z: registry.cn-beijing.aliyuncs.com/officialimage/minio-mc
+  quay.io/minio/minio:RELEASE.2024-03-26T22-10-45Z: registry.cn-beijing.aliyuncs.com/officialimage/minio
+  quay.io/minio/mc:RELEASE.2024-03-25T16-41-14Z: registry.cn-beijing.aliyuncs.com/officialimage/minio-mc
