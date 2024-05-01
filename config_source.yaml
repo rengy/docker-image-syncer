@@ -27,14 +27,14 @@ images:
 #   goharbor/redis-photon:v2.7.0: registry.cn-beijing.aliyuncs.com/paas-k8s/harbor-redis-photon
 #   goharbor/harbor-exporter:v2.7.0: registry.cn-beijing.aliyuncs.com/paas-k8s/harbor-exporter
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/eclipse-temurin/tags?page_size=50
-  eclipse-temurin:17.0.11_9-jre-alpine,17.0.11_9-jdk-alpine,17.0.11_9-jre-jammy,17.0.11_9-jdk-jammy,8u412-b08-jdk-alpine,8u412-b08-jre-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
-  eclipse-temurin:21.0.3_9-jre-alpine,21.0.3_9-jdk-alpine,21.0.3_9-jre-jammy,21.0.3_9-jdk-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
+#   eclipse-temurin:17.0.11_9-jre-alpine,17.0.11_9-jdk-alpine,17.0.11_9-jre-jammy,17.0.11_9-jdk-jammy,8u412-b08-jdk-alpine,8u412-b08-jre-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
+#   eclipse-temurin:21.0.3_9-jre-alpine,21.0.3_9-jdk-alpine,21.0.3_9-jre-jammy,21.0.3_9-jdk-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/redis/tags?page_size=50
 #   redis:7.2.4-alpine,7.0.15-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
     # https://dockerreg.bitdata.win/v2/namespaces/redislabs/repositories/redisinsight/tags?page_size=50
 #   redis/redisinsight:2.44.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight
 #   oliver006/redis_exporter:v1.58.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
-#   mysql:8.0.36-debian: registry.cn-beijing.aliyuncs.com/officialimage/mysql
+  mysql:8.0.37-debian: registry.cn-beijing.aliyuncs.com/officialimage/mysql
 #   prom/mysqld-exporter:v0.15.1: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/mongo/tags?page_size=50
 #   mongo:4.4.29: registry.cn-beijing.aliyuncs.com/officialimage/mongo
@@ -55,6 +55,6 @@ images:
 #   prom/prometheus:v2.51.0: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
     # https://dockerreg.bitdata.win/v2/namespaces/prom/repositories/pushgateway/tags?page_size=50
 #   prom/pushgateway:v1.7.0: registry.cn-beijing.aliyuncs.com/officialimage/pushgateway
-#   solr:9.5.0: registry.cn-beijing.aliyuncs.com/officialimage/solr
+  solr:9.6.0: registry.cn-beijing.aliyuncs.com/officialimage/solr
 #   quay.io/minio/minio:RELEASE.2024-03-26T22-10-45Z: registry.cn-beijing.aliyuncs.com/officialimage/minio
 #   quay.io/minio/mc:RELEASE.2024-03-25T16-41-14Z: registry.cn-beijing.aliyuncs.com/officialimage/minio-mc
