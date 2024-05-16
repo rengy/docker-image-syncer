@@ -52,7 +52,7 @@ images:
 #   bitnami/elasticsearch-exporter:1.7.0: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch-exporter
     # https://dockerreg.bitdata.win/v2/namespaces/grafana/repositories/grafana/tags?page_size=50
     # https://hub.docker.com/r/grafana/grafana/tags
-  grafana/grafana:10.4.3: registry.cn-beijing.aliyuncs.com/officialimage/grafana
+  grafana/grafana:11.0.0: registry.cn-beijing.aliyuncs.com/officialimage/grafana
     # https://dockerreg.bitdata.win/v2/namespaces/prom/repositories/prometheus/tags?page_size=50
     # https://hub.docker.com/r/prom/prometheus/tags
 #   prom/prometheus:v2.52.0: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
