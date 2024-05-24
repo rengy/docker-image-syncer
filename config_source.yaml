@@ -30,10 +30,10 @@ images:
 #   eclipse-temurin:17.0.11_9-jre-alpine,17.0.11_9-jdk-alpine,17.0.11_9-jre-jammy,17.0.11_9-jdk-jammy,8u412-b08-jdk-alpine,8u412-b08-jre-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
 #   eclipse-temurin:21.0.3_9-jre-alpine,21.0.3_9-jdk-alpine,21.0.3_9-jre-jammy,21.0.3_9-jdk-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/redis/tags?page_size=50
-#   redis:7.2.4-alpine,7.0.15-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
+  redis:6.2.14-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
     # https://dockerreg.bitdata.win/v2/namespaces/redislabs/repositories/redisinsight/tags?page_size=50
-#   redis/redisinsight:2.44.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight
-#   oliver006/redis_exporter:v1.58.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
+  redis/redisinsight:2.48.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight
+  oliver006/redis_exporter:v1.59.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
 #   mysql:8.0.37-debian: registry.cn-beijing.aliyuncs.com/officialimage/mysql
 #   prom/mysqld-exporter:v0.15.1: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/mongo/tags?page_size=50
@@ -52,7 +52,7 @@ images:
 #   bitnami/elasticsearch-exporter:1.7.0: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch-exporter
     # https://dockerreg.bitdata.win/v2/namespaces/grafana/repositories/grafana/tags?page_size=50
     # https://hub.docker.com/r/grafana/grafana/tags
-  grafana/grafana:11.0.0: registry.cn-beijing.aliyuncs.com/officialimage/grafana
+#   grafana/grafana:11.0.0: registry.cn-beijing.aliyuncs.com/officialimage/grafana
     # https://dockerreg.bitdata.win/v2/namespaces/prom/repositories/prometheus/tags?page_size=50
     # https://hub.docker.com/r/prom/prometheus/tags
 #   prom/prometheus:v2.52.0: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
