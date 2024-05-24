@@ -30,7 +30,7 @@ images:
 #   eclipse-temurin:17.0.11_9-jre-alpine,17.0.11_9-jdk-alpine,17.0.11_9-jre-jammy,17.0.11_9-jdk-jammy,8u412-b08-jdk-alpine,8u412-b08-jre-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
 #   eclipse-temurin:21.0.3_9-jre-alpine,21.0.3_9-jdk-alpine,21.0.3_9-jre-jammy,21.0.3_9-jdk-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/redis/tags?page_size=50
-  redis:6.2.14-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
+  redis:7.2.5-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
     # https://dockerreg.bitdata.win/v2/namespaces/redislabs/repositories/redisinsight/tags?page_size=50
   redis/redisinsight:2.48.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight
   oliver006/redis_exporter:v1.59.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
