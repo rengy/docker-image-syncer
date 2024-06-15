@@ -32,8 +32,8 @@ images:
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/redis/tags?page_size=50
 #   redis:7.2.5-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
     # https://dockerreg.bitdata.win/v2/namespaces/redislabs/repositories/redisinsight/tags?page_size=50
-#   redis/redisinsight:2.48.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight
-#   oliver006/redis_exporter:v1.59.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
+  redis/redisinsight:2.50.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight
+  oliver006/redis_exporter:v1.61.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
 #   mysql:8.0.37-debian: registry.cn-beijing.aliyuncs.com/officialimage/mysql
 #   prom/mysqld-exporter:v0.15.1: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/mongo/tags?page_size=50
@@ -60,5 +60,5 @@ images:
     # https://hub.docker.com/r/prom/pushgateway/tags
 #   prom/pushgateway:v1.8.0: registry.cn-beijing.aliyuncs.com/officialimage/pushgateway
 #   solr:9.6.1: registry.cn-beijing.aliyuncs.com/officialimage/solr
-  quay.io/minio/minio:RELEASE.2024-06-06T09-36-42Z: registry.cn-beijing.aliyuncs.com/officialimage/minio
-  quay.io/minio/mc:RELEASE.2024-06-05T18-13-30Z: registry.cn-beijing.aliyuncs.com/officialimage/minio-mc
+#   quay.io/minio/minio:RELEASE.2024-06-06T09-36-42Z: registry.cn-beijing.aliyuncs.com/officialimage/minio
+#   quay.io/minio/mc:RELEASE.2024-06-05T18-13-30Z: registry.cn-beijing.aliyuncs.com/officialimage/minio-mc
