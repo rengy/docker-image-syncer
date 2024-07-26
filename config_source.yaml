@@ -27,15 +27,15 @@ images:
 #   goharbor/redis-photon:v2.7.0: registry.cn-beijing.aliyuncs.com/paas-k8s/harbor-redis-photon
 #   goharbor/harbor-exporter:v2.7.0: registry.cn-beijing.aliyuncs.com/paas-k8s/harbor-exporter
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/eclipse-temurin/tags?page_size=50
-#   eclipse-temurin:8u412-b08-jdk-alpine,8u412-b08-jre-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
-  eclipse-temurin:17.0.12_7-jre-alpine,17.0.12_7-jdk-alpine,17.0.12_7-jre-jammy,17.0.12_7-jdk-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
-  eclipse-temurin:21.0.4_7-jre-alpine,21.0.4_7-jdk-alpine,21.0.4_7-jre-jammy,21.0.4_7-jdk-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
+  eclipse-temurin:8u422-b05-jdk-alpine,8u422-b05-jre-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
+#   eclipse-temurin:17.0.12_7-jre-alpine,17.0.12_7-jdk-alpine,17.0.12_7-jre-jammy,17.0.12_7-jdk-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
+#   eclipse-temurin:21.0.4_7-jre-alpine,21.0.4_7-jdk-alpine,21.0.4_7-jre-jammy,21.0.4_7-jdk-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/redis/tags?page_size=50
 #   redis:7.2.5-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
     # https://dockerreg.bitdata.win/v2/namespaces/redislabs/repositories/redisinsight/tags?page_size=50
 #   redis/redisinsight:2.52.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight
 #   oliver006/redis_exporter:v1.61.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
-  mysql:8.0.39-debian: registry.cn-beijing.aliyuncs.com/officialimage/mysql
+#   mysql:8.0.39-debian: registry.cn-beijing.aliyuncs.com/officialimage/mysql
 #   prom/mysqld-exporter:v0.15.1: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/mongo/tags?page_size=50
 #   mongo:4.4.29: registry.cn-beijing.aliyuncs.com/officialimage/mongo
@@ -53,10 +53,10 @@ images:
 #   bitnami/elasticsearch-exporter:1.7.0: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch-exporter
     # https://dockerreg.bitdata.win/v2/namespaces/grafana/repositories/grafana/tags?page_size=50
     # https://hub.docker.com/r/grafana/grafana/tags
-#   grafana/grafana:11.1.0: registry.cn-beijing.aliyuncs.com/officialimage/grafana
+  grafana/grafana:11.1.1: registry.cn-beijing.aliyuncs.com/officialimage/grafana
     # https://dockerreg.bitdata.win/v2/namespaces/prom/repositories/prometheus/tags?page_size=50
     # https://hub.docker.com/r/prom/prometheus/tags
-#   prom/prometheus:v2.53.0: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
+  prom/prometheus:v2.53.1: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
     # https://dockerreg.bitdata.win/v2/namespaces/prom/repositories/pushgateway/tags?page_size=50
     # https://hub.docker.com/r/prom/pushgateway/tags
 #   prom/pushgateway:v1.9.0: registry.cn-beijing.aliyuncs.com/officialimage/pushgateway
