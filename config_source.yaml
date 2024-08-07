@@ -36,8 +36,8 @@ images:
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/redis/tags?page_size=50
 #   redis:7.2.5-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
     # https://dockerreg.bitdata.win/v2/namespaces/redislabs/repositories/redisinsight/tags?page_size=50
-#   redis/redisinsight:2.52.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight
-#   oliver006/redis_exporter:v1.61.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
+  redis/redisinsight:2.54.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight
+  oliver006/redis_exporter:v1.62.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
 #   mysql:8.0.39-debian: registry.cn-beijing.aliyuncs.com/officialimage/mysql
 #   prom/mysqld-exporter:v0.15.1: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/mongo/tags?page_size=50
@@ -47,16 +47,16 @@ images:
     # https://dockerreg.bitdata.win/v2/namespaces/bitnami/repositories/mongodb-exporter/tags?page_size=50
 #   bitnami/mongodb-exporter:0.40.0: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter
 #   zookeeper:3.8.4: registry.cn-beijing.aliyuncs.com/officialimage/zookeeper
-#   docker.elastic.co/elasticsearch/elasticsearch:8.13.4: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch
-#   docker.elastic.co/kibana/kibana:8.13.4: registry.cn-beijing.aliyuncs.com/officialimage/kibana
-#   docker.elastic.co/logstash/logstash:8.13.4: registry.cn-beijing.aliyuncs.com/officialimage/logstash
-#   docker.elastic.co/beats/metricbeat:8.13.4: registry.cn-beijing.aliyuncs.com/officialimage/metricbeat
+  docker.elastic.co/elasticsearch/elasticsearch:8.14.3: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch
+  docker.elastic.co/kibana/kibana:8.14.3: registry.cn-beijing.aliyuncs.com/officialimage/kibana
+  docker.elastic.co/logstash/logstash:8.14.3: registry.cn-beijing.aliyuncs.com/officialimage/logstash
+  docker.elastic.co/beats/metricbeat:8.14.3: registry.cn-beijing.aliyuncs.com/officialimage/metricbeat
     # https://dockerreg.bitdata.win/v2/namespaces/bitnami/repositories/elasticsearch-exporter/tags?page_size=50
     # https://hub.docker.com/r/bitnami/elasticsearch-exporter/tags
 #   bitnami/elasticsearch-exporter:1.7.0: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch-exporter
     # https://dockerreg.bitdata.win/v2/namespaces/grafana/repositories/grafana/tags?page_size=50
     # https://hub.docker.com/r/grafana/grafana/tags
-  grafana/grafana:11.1.3: registry.cn-beijing.aliyuncs.com/officialimage/grafana
+#   grafana/grafana:11.1.3: registry.cn-beijing.aliyuncs.com/officialimage/grafana
     # https://dockerreg.bitdata.win/v2/namespaces/prom/repositories/prometheus/tags?page_size=50
     # https://hub.docker.com/r/prom/prometheus/tags
 #   prom/prometheus:v2.53.1: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
