@@ -33,7 +33,7 @@ images:
 #   maven:3.9.8-eclipse-temurin-17-alpine,3.9.8-eclipse-temurin-17: registry.cn-beijing.aliyuncs.com/officialimage/maven
 #   maven:3.9.8-eclipse-temurin-8-alpine,3.9.8-eclipse-temurin-8: registry.cn-beijing.aliyuncs.com/officialimage/maven
 #   node:18.20.4-alpine,18.20.4: registry.cn-beijing.aliyuncs.com/officialimage/node
-  tomcat:10.1.28-jre17-temurin-jammy,8.5.100-jre8-temurin-jammy: registry.cn-beijing.aliyuncs.com/officialimage/tomcat
+#   tomcat:10.1.28-jre17-temurin-jammy,8.5.100-jre8-temurin-jammy: registry.cn-beijing.aliyuncs.com/officialimage/tomcat
     # https://dockerreg.bitdata.win/v2/namespaces/library/repositories/redis/tags?page_size=50
 #   redis:7.2.5-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
     # https://dockerreg.bitdata.win/v2/namespaces/redislabs/repositories/redisinsight/tags?page_size=50
@@ -57,13 +57,13 @@ images:
 #   bitnami/elasticsearch-exporter:1.7.0: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch-exporter
     # https://dockerreg.bitdata.win/v2/namespaces/grafana/repositories/grafana/tags?page_size=50
     # https://hub.docker.com/r/grafana/grafana/tags
-#   grafana/grafana:11.1.3: registry.cn-beijing.aliyuncs.com/officialimage/grafana
+  grafana/grafana:11.1.4: registry.cn-beijing.aliyuncs.com/officialimage/grafana
     # https://dockerreg.bitdata.win/v2/namespaces/prom/repositories/prometheus/tags?page_size=50
     # https://hub.docker.com/r/prom/prometheus/tags
-#   prom/prometheus:v2.53.1: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
+  prom/prometheus:v2.53.2: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
     # https://dockerreg.bitdata.win/v2/namespaces/prom/repositories/pushgateway/tags?page_size=50
     # https://hub.docker.com/r/prom/pushgateway/tags
 #   prom/pushgateway:v1.9.0: registry.cn-beijing.aliyuncs.com/officialimage/pushgateway
 #   solr:9.6.1: registry.cn-beijing.aliyuncs.com/officialimage/solr
-#   quay.io/minio/minio:RELEASE.2024-06-06T09-36-42Z: registry.cn-beijing.aliyuncs.com/officialimage/minio
-#   quay.io/minio/mc:RELEASE.2024-06-05T18-13-30Z: registry.cn-beijing.aliyuncs.com/officialimage/minio-mc
+  quay.io/minio/minio:RELEASE.2024-08-03T04-33-23Z: registry.cn-beijing.aliyuncs.com/officialimage/minio
+  quay.io/minio/mc:RELEASE.2024-08-13T05-33-17Z: registry.cn-beijing.aliyuncs.com/officialimage/minio-mc
