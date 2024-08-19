@@ -1,11 +1,13 @@
 # This is a basic workflow to help you get started with Actions
 
-name: image-sync
+name: image-sync-amd64
 on:
   push:
     branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    paths:
+      - 'config_source-amd64.yaml'
+#  pull_request:
+#    branches: [ main ]
 #   schedule:
 #     - cron: '0 14 * * 1'
 
@@ -28,7 +30,7 @@ jobs:
         tar -zxf image-syncer-${IMAGE_SYNCER_VERSION}-linux-amd64.tar.gz
         
     - name: add sercret to file
-      run: envsubst < config_source.yaml > config.yaml
+      run: envsubst < config_source-amd64.yaml > config-amd64.yaml
 
     - name: sync images
-      run: ./image-syncer --proc=10 --config=config.yaml --arch=amd64,arm64 --os=linux --retries=3
+      run: ./image-syncer --proc=10 --config=config-amd64.yaml --arch=amd64 --os=linux --retries=3
