@@ -3,19 +3,17 @@ auth:
     username: $USERNAME
     password: $PASSWORD
 images:
-#   eclipse-temurin:8u422-b05-jdk-alpine,8u422-b05-jre-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
-  eclipse-temurin:8u422-b05-jdk-noble,8u422-b05-jre-noble: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
-#  eclipse-temurin:17.0.12_7-jre-alpine,17.0.12_7-jdk-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
-  eclipse-temurin:17.0.12_7-jre-noble,17.0.12_7-jdk-noble: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
-#   eclipse-temurin:21.0.4_7-jre-alpine,21.0.4_7-jdk-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
-#   eclipse-temurin:21.0.4_7-jre-noble,21.0.4_7-jdk-noble: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
-  maven:3.9.9-eclipse-temurin-17-alpine,3.9.9-eclipse-temurin-17: registry.cn-beijing.aliyuncs.com/officialimage/maven-arm64
-  maven:3.9.9-eclipse-temurin-8-alpine,3.9.9-eclipse-temurin-8: registry.cn-beijing.aliyuncs.com/officialimage/maven-arm64
-#   node:18.20.4-alpine,18.20.4: registry.cn-beijing.aliyuncs.com/officialimage/node
-#   tomcat:10.1.28-jre17-temurin-jammy,8.5.100-jre8-temurin-jammy: registry.cn-beijing.aliyuncs.com/officialimage/tomcat
-#   redis:7.2.5-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
-#   redis/redisinsight:2.54.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight
-#   oliver006/redis_exporter:v1.62.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
+#  eclipse-temurin:8u422-b05-jdk-noble,8u422-b05-jre-noble: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
+#  eclipse-temurin:17.0.12_7-jre-noble,17.0.12_7-jdk-noble: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
+#  eclipse-temurin:21.0.4_7-jre-alpine,21.0.4_7-jdk-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
+#  eclipse-temurin:21.0.4_7-jre-noble,21.0.4_7-jdk-noble: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
+#  maven:3.9.9-eclipse-temurin-17-alpine,3.9.9-eclipse-temurin-17: registry.cn-beijing.aliyuncs.com/officialimage/maven-arm64
+#  maven:3.9.9-eclipse-temurin-8-alpine,3.9.9-eclipse-temurin-8: registry.cn-beijing.aliyuncs.com/officialimage/maven-arm64
+  node:18.20.4-alpine,18.20.4: registry.cn-beijing.aliyuncs.com/officialimage/node-arm64
+  tomcat:10.1.28-jre17-temurin-noble,8.5.100-jre8-temurin-jammy: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-arm64
+  redis:4.0.14-alpine,6.2.14-alpine,7.0.15-alpine,7.2.5-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-arm64
+  redis/redisinsight:2.54.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight-arm64
+  oliver006/redis_exporter:v1.62.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter-arm64
 #   mysql:8.0.39-debian: registry.cn-beijing.aliyuncs.com/officialimage/mysql
 #   prom/mysqld-exporter:v0.15.1: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter
 #  mongo:4.4.29: registry.cn-beijing.aliyuncs.com/officialimage/mongo-arm64
