@@ -3,11 +3,14 @@ auth:
     username: $USERNAME
     password: $PASSWORD
 images:
-#   eclipse-temurin:8u422-b05-jdk-alpine,8u422-b05-jre-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
-#   eclipse-temurin:17.0.12_7-jre-alpine,17.0.12_7-jdk-alpine,17.0.12_7-jre-jammy,17.0.12_7-jdk-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
-#   eclipse-temurin:21.0.4_7-jre-alpine,21.0.4_7-jdk-alpine,21.0.4_7-jre-jammy,21.0.4_7-jdk-jammy: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin
-#   maven:3.9.8-eclipse-temurin-17-alpine,3.9.8-eclipse-temurin-17: registry.cn-beijing.aliyuncs.com/officialimage/maven
-#   maven:3.9.8-eclipse-temurin-8-alpine,3.9.8-eclipse-temurin-8: registry.cn-beijing.aliyuncs.com/officialimage/maven
+#   eclipse-temurin:8u422-b05-jdk-alpine,8u422-b05-jre-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
+  eclipse-temurin:8u422-b05-jdk-noble,8u422-b05-jre-noble: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
+#  eclipse-temurin:17.0.12_7-jre-alpine,17.0.12_7-jdk-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
+  eclipse-temurin:17.0.12_7-jre-noble,17.0.12_7-jdk-noble: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
+#   eclipse-temurin:21.0.4_7-jre-alpine,21.0.4_7-jdk-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
+#   eclipse-temurin:21.0.4_7-jre-noble,21.0.4_7-jdk-noble: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
+  maven:3.9.9-eclipse-temurin-17-alpine,3.9.9-eclipse-temurin-17: registry.cn-beijing.aliyuncs.com/officialimage/maven-arm64
+  maven:3.9.9-eclipse-temurin-8-alpine,3.9.9-eclipse-temurin-8: registry.cn-beijing.aliyuncs.com/officialimage/maven-arm64
 #   node:18.20.4-alpine,18.20.4: registry.cn-beijing.aliyuncs.com/officialimage/node
 #   tomcat:10.1.28-jre17-temurin-jammy,8.5.100-jre8-temurin-jammy: registry.cn-beijing.aliyuncs.com/officialimage/tomcat
 #   redis:7.2.5-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis
@@ -15,9 +18,9 @@ images:
 #   oliver006/redis_exporter:v1.62.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter
 #   mysql:8.0.39-debian: registry.cn-beijing.aliyuncs.com/officialimage/mysql
 #   prom/mysqld-exporter:v0.15.1: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter
-  mongo:4.4.29: registry.cn-beijing.aliyuncs.com/officialimage/mongo-arm64
-  mongo-express:1.0.2-20-alpine3.19: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express-arm64
-  bitnami/mongodb-exporter:0.40.0: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter-arm64
+#  mongo:4.4.29: registry.cn-beijing.aliyuncs.com/officialimage/mongo-arm64
+#  mongo-express:1.0.2-20-alpine3.19: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express-arm64
+#  bitnami/mongodb-exporter:0.40.0: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter-arm64
 #   zookeeper:3.8.4: registry.cn-beijing.aliyuncs.com/officialimage/zookeeper
 #   docker.elastic.co/elasticsearch/elasticsearch:8.14.3: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch
 #   docker.elastic.co/kibana/kibana:8.14.3: registry.cn-beijing.aliyuncs.com/officialimage/kibana
