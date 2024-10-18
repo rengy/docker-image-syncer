@@ -17,8 +17,8 @@ images:
 #  redis:7.2.6-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-arm64
 #  redis/redisinsight:2.58.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight-arm64
 #  oliver006/redis_exporter:v1.65.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter-arm64
-  mysql:8.0.40-oracle: registry.cn-beijing.aliyuncs.com/officialimage/mysql-arm64
-#   prom/mysqld-exporter:v0.15.1: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter
+#  mysql:8.0.40-oracle: registry.cn-beijing.aliyuncs.com/officialimage/mysql-arm64
+   prom/mysqld-exporter:v0.15.1: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter-arm64
 #  mongo:5.0.29: registry.cn-beijing.aliyuncs.com/officialimage/mongo-arm64
 #  mongo-express:1.0.2-20-alpine3.19: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express-arm64
 #  bitnami/mongodb-exporter:0.41.1: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter-arm64
