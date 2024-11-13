@@ -54,7 +54,7 @@ images:
 #  docker.elastic.co/logstash/logstash:8.15.4: registry.cn-beijing.aliyuncs.com/officialimage/logstash
 #  docker.elastic.co/beats/metricbeat:8.15.4: registry.cn-beijing.aliyuncs.com/officialimage/metricbeat
 #  bitnami/elasticsearch-exporter:1.8.0: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch-exporter
-  grafana/grafana:11.3.0-security-01: registry.cn-beijing.aliyuncs.com/officialimage/grafana
+  grafana/grafana:11.2.2-security-01: registry.cn-beijing.aliyuncs.com/officialimage/grafana
 #  prom/prometheus:v2.55.1: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
 #  prom/pushgateway:v1.10.0: registry.cn-beijing.aliyuncs.com/officialimage/pushgateway
 #   solr:9.7.0: registry.cn-beijing.aliyuncs.com/officialimage/solr
