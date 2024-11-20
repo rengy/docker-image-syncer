@@ -11,7 +11,7 @@ images:
 #  maven:3.9.9-eclipse-temurin-8-alpine,3.9.9-eclipse-temurin-8: registry.cn-beijing.aliyuncs.com/officialimage/maven-arm64
 #  node:18.20.4-alpine,18.20.4-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/node-arm64
 #  tomcat:8.5.100-jre8-temurin-jammy: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-arm64
-  tomcat:10.1.33-jre17-temurin-noble: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-arm64
+#  tomcat:10.1.33-jre17-temurin-noble: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-arm64
 #  redis:4.0.14-alpine,6.2.14-alpine,7.0.15-alpine,7.2.5-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-arm64
 #  redis:6.2.16-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-arm64
 #  redis:7.2.6-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-arm64
@@ -21,7 +21,7 @@ images:
 #  prom/mysqld-exporter:v0.15.1: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter-arm64
 #  mongo:5.0.30: registry.cn-beijing.aliyuncs.com/officialimage/mongo-arm64
 #  mongo-express:1.0.2-20-alpine3.19: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express-arm64
-#  bitnami/mongodb-exporter:0.42.0: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter-arm64
+  bitnami/mongodb-exporter:0.42.1: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter-arm64
 #   zookeeper:3.8.4: registry.cn-beijing.aliyuncs.com/officialimage/zookeeper
 #   docker.elastic.co/elasticsearch/elasticsearch:8.14.3: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch
 #   docker.elastic.co/kibana/kibana:8.14.3: registry.cn-beijing.aliyuncs.com/officialimage/kibana
