@@ -19,8 +19,8 @@ images:
 #  oliver006/redis_exporter:v1.65.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter-arm64
 #  mysql:8.0.40-oracle: registry.cn-beijing.aliyuncs.com/officialimage/mysql-arm64
 #  prom/mysqld-exporter:v0.15.1: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter-arm64
-#  mongo:5.0.30: registry.cn-beijing.aliyuncs.com/officialimage/mongo-arm64
-#  mongo-express:1.0.2-20-alpine3.19: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express-arm64
+  mongo:6.0.19: registry.cn-beijing.aliyuncs.com/officialimage/mongo-arm64
+  mongo-express:1.0.2-20-alpine3.19: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express-arm64
   bitnami/mongodb-exporter:0.42.1: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter-arm64
 #   zookeeper:3.8.4: registry.cn-beijing.aliyuncs.com/officialimage/zookeeper
 #   docker.elastic.co/elasticsearch/elasticsearch:8.14.3: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch
