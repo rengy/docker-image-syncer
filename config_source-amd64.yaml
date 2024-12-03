@@ -35,7 +35,7 @@ images:
 #  eclipse-temurin:21.0.5_11-jre-noble,21.0.5_11-jdk-noble: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-amd64
 #  maven:3.9.9-eclipse-temurin-17-alpine,3.9.9-eclipse-temurin-17: registry.cn-beijing.aliyuncs.com/officialimage/maven-amd64
 #  maven:3.9.9-eclipse-temurin-8-alpine,3.9.9-eclipse-temurin-8: registry.cn-beijing.aliyuncs.com/officialimage/maven-amd64
-  node:18.20.5-alpine,18.20.5-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/node-amd64
+#  node:18.20.5-alpine,18.20.5-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/node-amd64
 #  tomcat:8.5.100-jre8-temurin-jammy: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-amd64
 #  tomcat:10.1.33-jre17-temurin-noble: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-amd64
 #  redis:4.0.14-alpine,6.2.14-alpine,7.0.15-alpine,7.2.5-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-amd64
@@ -49,6 +49,8 @@ images:
 #  mongo-express:1.0.2-20-alpine3.19: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express-amd64
 #  bitnami/mongodb-exporter:0.42.1: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter-amd64
 #  zookeeper:3.8.4: registry.cn-beijing.aliyuncs.com/officialimage/zookeeper
+  danielqsj/kafka-exporter:v1.8.0: registry.cn-beijing.aliyuncs.com/officialimage/kafka-exporter-amd64
+  apache/kafka:3.8.1: registry.cn-beijing.aliyuncs.com/officialimage/kafka-amd64
 #  docker.elastic.co/elasticsearch/elasticsearch:8.15.5: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch
 #  docker.elastic.co/kibana/kibana:8.15.5: registry.cn-beijing.aliyuncs.com/officialimage/kibana
 #  docker.elastic.co/logstash/logstash:8.15.5: registry.cn-beijing.aliyuncs.com/officialimage/logstash
