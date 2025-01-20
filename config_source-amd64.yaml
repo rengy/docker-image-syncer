@@ -44,9 +44,9 @@ images:
 #  oliver006/redis_exporter:v1.67.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter-amd64
 #  mysql:8.0.40-oracle: registry.cn-beijing.aliyuncs.com/officialimage/mysql-amd64
 #  prom/mysqld-exporter:v0.15.1: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter-amd64
-  mongo:6.0.20: registry.cn-beijing.aliyuncs.com/officialimage/mongo-amd64
+  mongo:7.0.16: registry.cn-beijing.aliyuncs.com/officialimage/mongo-amd64
 #  mongo-express:1.0.2-20-alpine3.19: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express-amd64
-  bitnami/mongodb-exporter:0.43.1: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter-amd64
+#  bitnami/mongodb-exporter:0.43.1: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter-amd64
 #  zookeeper:3.8.4: registry.cn-beijing.aliyuncs.com/officialimage/zookeeper
 #  danielqsj/kafka-exporter:v1.8.0: registry.cn-beijing.aliyuncs.com/officialimage/kafka-exporter-amd64
 #  apache/kafka:3.8.1: registry.cn-beijing.aliyuncs.com/officialimage/kafka-amd64
