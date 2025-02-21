@@ -37,7 +37,7 @@ images:
 #  maven:3.9.9-eclipse-temurin-8-alpine,3.9.9-eclipse-temurin-8: registry.cn-beijing.aliyuncs.com/officialimage/maven-amd64
 #  node:18.20.5-alpine,18.20.5-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/node-amd64
 #  tomcat:8.5.100-jre8-temurin-jammy: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-amd64
-  tomcat:10.1.35-jre17-temurin-noble: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-amd64
+  tomcat:10.1.36-jre17-temurin-noble: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-amd64
 #  redis:6.2.17-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-amd64
 #  redis:7.2.7-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-amd64
 #  redis/redisinsight:2.64.1: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight-amd64
