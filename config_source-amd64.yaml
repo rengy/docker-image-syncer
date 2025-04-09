@@ -59,7 +59,7 @@ images:
 #  prom/prometheus:v3.2.1: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
 #  prom/pushgateway:v1.11.0: registry.cn-beijing.aliyuncs.com/officialimage/pushgateway
 #  solr:9.8.1: registry.cn-beijing.aliyuncs.com/officialimage/solr
-  quay.io/minio/minio:RELEASE.2025-04-08T15-41-24Z: registry.cn-beijing.aliyuncs.com/officialimage/minio
-  quay.io/minio/mc:RELEASE.2025-04-08T15-39-49Z: registry.cn-beijing.aliyuncs.com/officialimage/minio-mc
+#  quay.io/minio/minio:RELEASE.2025-04-08T15-41-24Z: registry.cn-beijing.aliyuncs.com/officialimage/minio
+#  quay.io/minio/mc:RELEASE.2025-04-08T15-39-49Z: registry.cn-beijing.aliyuncs.com/officialimage/minio-mc
 #  ollama/ollama:0.6.4: registry.cn-beijing.aliyuncs.com/officialimage/ollama-amd64
 #  ghcr.io/open-webui/open-webui:0.6.0: registry.cn-beijing.aliyuncs.com/officialimage/open-webui-amd64
