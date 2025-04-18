@@ -64,4 +64,5 @@ images:
 #  ollama/ollama:0.6.4: registry.cn-beijing.aliyuncs.com/officialimage/ollama-amd64
 #  ghcr.io/open-webui/open-webui:0.6.0: registry.cn-beijing.aliyuncs.com/officialimage/open-webui-amd64
 #  nacos/nacos-server:v2.5.1: registry.cn-beijing.aliyuncs.com/officialimage/nacos-server-amd64
-  portainer/portainer-ce:2.29.0-alpine: registry.cn-beijing.aliyuncs.com/officialimage/portainer-ce
+#  portainer/portainer-ce:2.29.0-alpine: registry.cn-beijing.aliyuncs.com/officialimage/portainer-ce
+  portainer/agent:2.29.0-alpine: registry.cn-beijing.aliyuncs.com/officialimage/portainer-agent
