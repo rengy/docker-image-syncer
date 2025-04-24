@@ -42,7 +42,7 @@ images:
 #  redis:7.2.7-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-amd64
 #  redis/redisinsight:2.64.1: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight-amd64
 #  oliver006/redis_exporter:v1.67.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter-amd64
-  mysql:8.0.42-oracle: registry.cn-beijing.aliyuncs.com/officialimage/mysql-amd64
+#  mysql:8.0.42-oracle: registry.cn-beijing.aliyuncs.com/officialimage/mysql-amd64
 #  prom/mysqld-exporter:v0.17.2: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter-amd64
 #  mongo:7.0.19: registry.cn-beijing.aliyuncs.com/officialimage/mongo-amd64
 #  mongo-express:1.0.2-20-alpine3.19: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express-amd64
@@ -55,8 +55,8 @@ images:
 #  docker.elastic.co/logstash/logstash:8.17.5: registry.cn-beijing.aliyuncs.com/officialimage/logstash
 #  docker.elastic.co/beats/metricbeat:8.17.5: registry.cn-beijing.aliyuncs.com/officialimage/metricbeat
 #  bitnami/elasticsearch-exporter:1.9.0: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch-exporter
-  grafana/grafana:11.6.0-security-01: registry.cn-beijing.aliyuncs.com/officialimage/grafana
-  prom/prometheus:v3.3.0: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
+  grafana/grafana:11.6.1: registry.cn-beijing.aliyuncs.com/officialimage/grafana
+#  prom/prometheus:v3.3.0: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
 #  prom/pushgateway:v1.11.1: registry.cn-beijing.aliyuncs.com/officialimage/pushgateway
 #  solr:9.8.1: registry.cn-beijing.aliyuncs.com/officialimage/solr
 #  quay.io/minio/minio:RELEASE.2025-04-08T15-41-24Z: registry.cn-beijing.aliyuncs.com/officialimage/minio
