@@ -46,9 +46,9 @@ images:
 #  oliver006/redis_exporter:v1.73.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter-amd64
 #  mysql:8.0.42-oracle: registry.cn-beijing.aliyuncs.com/officialimage/mysql-amd64
 #  prom/mysqld-exporter:v0.17.2: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter-amd64
-  mongo:7.0.21: registry.cn-beijing.aliyuncs.com/officialimage/mongo-amd64
+#  mongo:7.0.21: registry.cn-beijing.aliyuncs.com/officialimage/mongo-amd64
 #  mongo-express:1.0.2-20-alpine3.19: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express-amd64
-  bitnami/mongodb-exporter:0.45.0: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter-amd64
+#  bitnami/mongodb-exporter:0.45.0: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter-amd64
 #  zookeeper:3.8.4: registry.cn-beijing.aliyuncs.com/officialimage/zookeeper
 #  danielqsj/kafka-exporter:v1.9.0: registry.cn-beijing.aliyuncs.com/officialimage/kafka-exporter-amd64
 #  apache/kafka:3.9.1: registry.cn-beijing.aliyuncs.com/officialimage/kafka-amd64
@@ -68,3 +68,4 @@ images:
 #  nacos/nacos-server:v2.5.1: registry.cn-beijing.aliyuncs.com/officialimage/nacos-server-amd64
 #  portainer/portainer-ce:2.29.0-alpine: registry.cn-beijing.aliyuncs.com/officialimage/portainer-ce
 #  portainer/agent:2.29.0-alpine: registry.cn-beijing.aliyuncs.com/officialimage/portainer-agent
+  pandoc/extra:3.7.0-ubuntu: registry.cn-beijing.aliyuncs.com/officialimage/pandoc-extra
