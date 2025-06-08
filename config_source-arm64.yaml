@@ -21,7 +21,7 @@ images:
 #  mysql:8.0.42-oracle: registry.cn-beijing.aliyuncs.com/officialimage/mysql-arm64
 #  prom/mysqld-exporter:v0.17.2: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter-arm64
   mongo:7.0.21: registry.cn-beijing.aliyuncs.com/officialimage/mongo-arm64
-#  mongo-express:1.0.2-20-alpine3.19: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express-arm64
+  mongo-express:1.0.2-20-alpine3.19: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express-arm64
   bitnami/mongodb-exporter:0.45.0: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter-arm64
 #  zookeeper:3.8.4: registry.cn-beijing.aliyuncs.com/officialimage/zookeeper
 #  danielqsj/kafka-exporter:v1.8.0: registry.cn-beijing.aliyuncs.com/officialimage/kafka-exporter-arm64
