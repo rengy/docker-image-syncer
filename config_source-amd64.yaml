@@ -39,7 +39,7 @@ images:
 #  node:20.19.2-alpine,20.19.2-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/node-amd64
 #  node:22.16.0-alpine,22.16.0-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/node-amd64
 #  tomcat:8.5.100-jre8-temurin-jammy: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-amd64
-#  tomcat:10.1.41-jre17-temurin-noble: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-amd64
+  tomcat:10.1.42-jre17-temurin-noble: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-amd64
 #  redis:6.2.18-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-amd64
 #  redis:7.2.9-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-amd64
 #  redis/redisinsight:2.70.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight-amd64
@@ -68,4 +68,4 @@ images:
 #  nacos/nacos-server:v2.5.1: registry.cn-beijing.aliyuncs.com/officialimage/nacos-server-amd64
 #  portainer/portainer-ce:2.29.0-alpine: registry.cn-beijing.aliyuncs.com/officialimage/portainer-ce
 #  portainer/agent:2.29.0-alpine: registry.cn-beijing.aliyuncs.com/officialimage/portainer-agent
-  pandoc/extra:3.7.0-ubuntu: registry.cn-beijing.aliyuncs.com/officialimage/pandoc-extra
+#  pandoc/extra:3.7.0-ubuntu: registry.cn-beijing.aliyuncs.com/officialimage/pandoc-extra
