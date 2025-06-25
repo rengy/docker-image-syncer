@@ -56,10 +56,10 @@ images:
   docker.elastic.co/kibana/kibana:8.17.8: registry.cn-beijing.aliyuncs.com/officialimage/kibana
   docker.elastic.co/logstash/logstash:8.17.8: registry.cn-beijing.aliyuncs.com/officialimage/logstash
   docker.elastic.co/beats/metricbeat:8.17.8: registry.cn-beijing.aliyuncs.com/officialimage/metricbeat
-#  bitnami/elasticsearch-exporter:1.9.0: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch-exporter
+  bitnami/elasticsearch-exporter:1.9.0: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch-exporter
   grafana/grafana:12.0.2: registry.cn-beijing.aliyuncs.com/officialimage/grafana
-#  prom/prometheus:v3.4.1: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
-#  prom/pushgateway:v1.11.1: registry.cn-beijing.aliyuncs.com/officialimage/pushgateway
+  prom/prometheus:v3.4.1: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
+  prom/pushgateway:v1.11.1: registry.cn-beijing.aliyuncs.com/officialimage/pushgateway
 #  solr:9.8.1: registry.cn-beijing.aliyuncs.com/officialimage/solr
 #  quay.io/minio/minio:RELEASE.2025-05-24T17-08-30Z: registry.cn-beijing.aliyuncs.com/officialimage/minio
 #  quay.io/minio/mc:RELEASE.2025-05-21T01-59-54Z: registry.cn-beijing.aliyuncs.com/officialimage/minio-mc
