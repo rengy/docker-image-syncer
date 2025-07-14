@@ -40,10 +40,10 @@ images:
 #  node:22.17.0-alpine,22.17.0-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/node-amd64
 #  tomcat:8.5.100-jre8-temurin-jammy: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-amd64
 #  tomcat:10.1.43-jre17-temurin-noble: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-amd64
-  redis:6.2.19-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-amd64
-  redis:7.2.10-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-amd64
-  redis/redisinsight:2.70.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight-amd64
-  oliver006/redis_exporter:v1.74.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter-amd64
+#  redis:6.2.19-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-amd64
+#  redis:7.2.10-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-amd64
+#  redis/redisinsight:2.70.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight-amd64
+#  oliver006/redis_exporter:v1.74.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter-amd64
 #  mysql:8.0.42-oracle: registry.cn-beijing.aliyuncs.com/officialimage/mysql-amd64
 #  prom/mysqld-exporter:v0.17.2: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter-amd64
 #  mongo:7.0.21: registry.cn-beijing.aliyuncs.com/officialimage/mongo-amd64
@@ -66,7 +66,7 @@ images:
 #  ollama/ollama:0.6.4: registry.cn-beijing.aliyuncs.com/officialimage/ollama-amd64
 #  ghcr.io/open-webui/open-webui:0.6.0: registry.cn-beijing.aliyuncs.com/officialimage/open-webui-amd64
 #  nacos/nacos-server:v2.5.1: registry.cn-beijing.aliyuncs.com/officialimage/nacos-server-amd64
-#  portainer/portainer-ce:2.31.2-alpine: registry.cn-beijing.aliyuncs.com/officialimage/portainer-ce
-#  portainer/agent:2.31.2-alpine: registry.cn-beijing.aliyuncs.com/officialimage/portainer-agent
-#  pandoc/extra:3.7.0-ubuntu: registry.cn-beijing.aliyuncs.com/officialimage/pandoc-extra
+  portainer/portainer-ce:2.31.3-alpine: registry.cn-beijing.aliyuncs.com/officialimage/portainer-ce
+  portainer/agent:2.31.3-alpine: registry.cn-beijing.aliyuncs.com/officialimage/portainer-agent
+  pandoc/extra:3.7.0-ubuntu: registry.cn-beijing.aliyuncs.com/officialimage/pandoc-extra
 #  gitlab/gitlab-ce:17.10.8-ce.0: registry.cn-beijing.aliyuncs.com/officialimage/gitlab-ce
