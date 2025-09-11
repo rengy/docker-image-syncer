@@ -3,18 +3,18 @@ auth:
     username: $USERNAME
     password: $PASSWORD
 images:
-#  eclipse-temurin:8u462-b08-jdk-noble,8u462-b08-jre-noble: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
-#  eclipse-temurin:17.0.16_8-jre-noble,17.0.16_8-jdk-noble: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
-#  eclipse-temurin:21.0.8_9-jre-alpine,21.0.8_9-jdk-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
-#  eclipse-temurin:21.0.8_9-jre-noble,21.0.8_9-jdk-noble: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
-#  maven:3.9.11-eclipse-temurin-21-alpine,3.9.11-eclipse-temurin-21: registry.cn-beijing.aliyuncs.com/officialimage/maven-arm64
-#  maven:3.9.11-eclipse-temurin-17-alpine,3.9.11-eclipse-temurin-17: registry.cn-beijing.aliyuncs.com/officialimage/maven-arm64
-#  maven:3.9.11-eclipse-temurin-8-alpine,3.9.11-eclipse-temurin-8: registry.cn-beijing.aliyuncs.com/officialimage/maven-arm64
-#  node:18.20.8-alpine,18.20.8-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/node-arm64
-#  node:20.19.4-alpine,20.19.4-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/node-arm64
-#  node:22.17.1-alpine,22.17.1-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/node-arm64
+  eclipse-temurin:8u462-b08-jdk-noble,8u462-b08-jre-noble: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
+  eclipse-temurin:17.0.16_8-jre-noble,17.0.16_8-jdk-noble: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
+  eclipse-temurin:21.0.8_9-jre-alpine,21.0.8_9-jdk-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
+  eclipse-temurin:21.0.8_9-jre-noble,21.0.8_9-jdk-noble: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-arm64
+  maven:3.9.11-eclipse-temurin-21-alpine,3.9.11-eclipse-temurin-21: registry.cn-beijing.aliyuncs.com/officialimage/maven-arm64
+  maven:3.9.11-eclipse-temurin-17-alpine,3.9.11-eclipse-temurin-17: registry.cn-beijing.aliyuncs.com/officialimage/maven-arm64
+  maven:3.9.11-eclipse-temurin-8-alpine,3.9.11-eclipse-temurin-8: registry.cn-beijing.aliyuncs.com/officialimage/maven-arm64
+  node:18.20.8-alpine,18.20.8-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/node-arm64
+  node:20.19.5-alpine,20.19.5-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/node-arm64
+  node:22.19.0-alpine,22.19.0-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/node-arm64
 #  tomcat:8.5.100-jre8-temurin-jammy: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-arm64
-  tomcat:10.1.45-jre17-temurin-noble: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-arm64
+#  tomcat:10.1.45-jre17-temurin-noble: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-arm64
 #  redis:6.2.19-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-arm64
 #  redis:7.2.10-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-arm64
 #  redis/redisinsight:2.70.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight-arm64
@@ -38,6 +38,7 @@ images:
 #  solr:9.6.1: registry.cn-beijing.aliyuncs.com/officialimage/solr
 #  quay.io/minio/minio:RELEASE.2024-08-03T04-33-23Z: registry.cn-beijing.aliyuncs.com/officialimage/minio
 #  quay.io/minio/mc:RELEASE.2024-08-13T05-33-17Z: registry.cn-beijing.aliyuncs.com/officialimage/minio-mc
+
 
 
 
