@@ -58,10 +58,10 @@ images:
 #  zookeeper:3.8.4: registry.cn-beijing.aliyuncs.com/officialimage/zookeeper
 #  danielqsj/kafka-exporter:v1.9.0: registry.cn-beijing.aliyuncs.com/officialimage/kafka-exporter-amd64
 #  apache/kafka:3.9.1: registry.cn-beijing.aliyuncs.com/officialimage/kafka-amd64
-  docker.elastic.co/elasticsearch/elasticsearch:8.19.8: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch
-  docker.elastic.co/kibana/kibana:8.19.8: registry.cn-beijing.aliyuncs.com/officialimage/kibana
-  docker.elastic.co/logstash/logstash:8.19.8: registry.cn-beijing.aliyuncs.com/officialimage/logstash
-  docker.elastic.co/beats/metricbeat:8.19.8: registry.cn-beijing.aliyuncs.com/officialimage/metricbeat
+  docker.elastic.co/elasticsearch/elasticsearch:8.19.9: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch
+  docker.elastic.co/kibana/kibana:8.19.9: registry.cn-beijing.aliyuncs.com/officialimage/kibana
+  docker.elastic.co/logstash/logstash:8.19.9: registry.cn-beijing.aliyuncs.com/officialimage/logstash
+  docker.elastic.co/beats/metricbeat:8.19.9: registry.cn-beijing.aliyuncs.com/officialimage/metricbeat
 #  bitnami/elasticsearch-exporter:1.9.0: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch-exporter
   grafana/grafana:12.3.1: registry.cn-beijing.aliyuncs.com/officialimage/grafana
   prom/prometheus:v3.8.1: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
