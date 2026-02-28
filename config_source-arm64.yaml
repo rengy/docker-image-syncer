@@ -19,12 +19,12 @@ images:
 #  node:24.11.1-alpine,24.11.1-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/node-arm64
 #  tomcat:8.5.100-jre8-temurin-jammy: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-arm64
 #  tomcat:10.1.49-jre17-temurin-noble: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-arm64
-#  redis:6.2.20-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-arm64
-#  redis:7.2.11-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-arm64
-#  redis/redisinsight:2.70.1: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight-arm64
+  redis:6.2.21-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-arm64
+  redis:7.2.13-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-arm64
+  redis/redisinsight:3.2.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight-arm64
 #  oliver006/redis_exporter:v1.78.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter-arm64
-  mysql:8.0.45-oracle: registry.cn-beijing.aliyuncs.com/officialimage/mysql-arm64
-  prom/mysqld-exporter:v0.18.0: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter-arm64
+#  mysql:8.0.45-oracle: registry.cn-beijing.aliyuncs.com/officialimage/mysql-arm64
+#  prom/mysqld-exporter:v0.18.0: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter-arm64
 #  mongo:7.0.29: registry.cn-beijing.aliyuncs.com/officialimage/mongo-arm64
 #  mongo-express:1.0.2-20-alpine3.19: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express-arm64
 #  percona/mongodb_exporter:0.47.2: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter-arm64
@@ -42,6 +42,7 @@ images:
 #  solr:9.6.1: registry.cn-beijing.aliyuncs.com/officialimage/solr
 #  quay.io/minio/minio:RELEASE.2024-08-03T04-33-23Z: registry.cn-beijing.aliyuncs.com/officialimage/minio
 #  quay.io/minio/mc:RELEASE.2024-08-13T05-33-17Z: registry.cn-beijing.aliyuncs.com/officialimage/minio-mc
+
 
 
 
