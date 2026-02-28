@@ -55,6 +55,7 @@ images:
 #  mongo-express:1.0.2-20-alpine3.19: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express-amd64
 #  percona/mongodb_exporter:0.47.2: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter-amd64
 #  postgres:17.6-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/postgres-amd64
+#  zookeeper only x86
   zookeeper:3.8.6: registry.cn-beijing.aliyuncs.com/officialimage/zookeeper
 #  danielqsj/kafka-exporter:v1.9.0: registry.cn-beijing.aliyuncs.com/officialimage/kafka-exporter-amd64
 #  apache/kafka:3.9.1: registry.cn-beijing.aliyuncs.com/officialimage/kafka-amd64
