@@ -22,7 +22,7 @@ images:
   redis:6.2.21-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-arm64
   redis:7.2.13-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-arm64
   redis/redisinsight:3.2.0: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight-arm64
-#  oliver006/redis_exporter:v1.78.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter-arm64
+  oliver006/redis_exporter:v1.81.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter-arm64
 #  mysql:8.0.45-oracle: registry.cn-beijing.aliyuncs.com/officialimage/mysql-arm64
 #  prom/mysqld-exporter:v0.18.0: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter-arm64
 #  mongo:7.0.29: registry.cn-beijing.aliyuncs.com/officialimage/mongo-arm64
@@ -42,6 +42,7 @@ images:
 #  solr:9.6.1: registry.cn-beijing.aliyuncs.com/officialimage/solr
 #  quay.io/minio/minio:RELEASE.2024-08-03T04-33-23Z: registry.cn-beijing.aliyuncs.com/officialimage/minio
 #  quay.io/minio/mc:RELEASE.2024-08-13T05-33-17Z: registry.cn-beijing.aliyuncs.com/officialimage/minio-mc
+
 
 
 
