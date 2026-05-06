@@ -52,9 +52,9 @@ images:
 #  oliver006/redis_exporter:v1.81.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter-amd64
 #  mysql:8.0.45-oracle: registry.cn-beijing.aliyuncs.com/officialimage/mysql-amd64
 #  prom/mysqld-exporter:v0.18.0: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter-amd64
-#  mongo:7.0.31: registry.cn-beijing.aliyuncs.com/officialimage/mongo-amd64
+  mongo:7.0.32: registry.cn-beijing.aliyuncs.com/officialimage/mongo-amd64
 #  mongo-express:1.0.2-20-alpine3.19: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express-amd64
-  percona/mongodb_exporter:0.50.0: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter-amd64
+  percona/mongodb_exporter:0.51.0: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter-amd64
 #  postgres:17.6-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/postgres-amd64
 #  zookeeper only x86
 #  zookeeper:3.8.6: registry.cn-beijing.aliyuncs.com/officialimage/zookeeper
