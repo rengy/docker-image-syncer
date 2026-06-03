@@ -50,9 +50,9 @@ images:
 #  redis:7.2.14-alpine: registry.cn-beijing.aliyuncs.com/officialimage/redis-amd64
 #  redis/redisinsight:3.4.2: registry.cn-beijing.aliyuncs.com/officialimage/redisinsight-amd64
 #  oliver006/redis_exporter:v1.83.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter-amd64
-  mysql:8.0.46-oracle: registry.cn-beijing.aliyuncs.com/officialimage/mysql-amd64
-  prom/mysqld-exporter:v0.19.0: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter-amd64
-#  mongo:7.0.32: registry.cn-beijing.aliyuncs.com/officialimage/mongo-amd64
+#  mysql:8.0.46-oracle: registry.cn-beijing.aliyuncs.com/officialimage/mysql-amd64
+#  prom/mysqld-exporter:v0.19.0: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter-amd64
+  mongo:7.0.34: registry.cn-beijing.aliyuncs.com/officialimage/mongo-amd64
 #  mongo-express:1.0.2-20-alpine3.19: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express-amd64
 #  percona/mongodb_exporter:0.51.0: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter-amd64
 #  postgres:17.6-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/postgres-amd64
