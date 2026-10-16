@@ -42,7 +42,7 @@ images:
 #  node:18.20.8-alpine,18.20.8-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/node-amd64
 #  node:20.20.0-alpine,20.20.0-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/node-amd64
 #  node:22.22.0-alpine,22.22.0-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/node-amd64
-  node:24.22.0-alpine,24.22.0-bookworma,24.22.0: registry.cn-beijing.aliyuncs.com/officialimage/node-amd64
+  node:24.22.0-alpine,24.22.0-bookworm,24.22.0: registry.cn-beijing.aliyuncs.com/officialimage/node-amd64
 #  tomcat:8.5.100-jre8-temurin-jammy: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-amd64
 #  tomcat:10.1.52-jre17-temurin-noble: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-amd64
 #  tomcat:10.1.52-jre25-temurin-noble: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-amd64
