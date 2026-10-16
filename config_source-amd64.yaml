@@ -42,7 +42,7 @@ images:
 #  node:18.20.8-alpine,18.20.8-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/node-amd64
 #  node:20.20.0-alpine,20.20.0-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/node-amd64
 #  node:22.22.0-alpine,22.22.0-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/node-amd64
-#  node:24.14.0-alpine,24.14.0-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/node-amd64
+  node:24.22.0-alpine,24.22.0-bookworma,24.22.0: registry.cn-beijing.aliyuncs.com/officialimage/node-amd64
 #  tomcat:8.5.100-jre8-temurin-jammy: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-amd64
 #  tomcat:10.1.52-jre17-temurin-noble: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-amd64
 #  tomcat:10.1.52-jre25-temurin-noble: registry.cn-beijing.aliyuncs.com/officialimage/tomcat-amd64
@@ -65,7 +65,7 @@ images:
 #  docker.elastic.co/logstash/logstash:8.19.23: registry.cn-beijing.aliyuncs.com/officialimage/logstash
 #  docker.elastic.co/beats/metricbeat:8.19.23: registry.cn-beijing.aliyuncs.com/officialimage/metricbeat
 #  bitnami/elasticsearch-exporter:1.9.0: registry.cn-beijing.aliyuncs.com/officialimage/elasticsearch-exporter
-  grafana/grafana:13.2.4: registry.cn-beijing.aliyuncs.com/officialimage/grafana
+#  grafana/grafana:13.2.4: registry.cn-beijing.aliyuncs.com/officialimage/grafana
 #  prom/prometheus:v3.15.0: registry.cn-beijing.aliyuncs.com/officialimage/prometheus
 #  prom/pushgateway:v1.11.4: registry.cn-beijing.aliyuncs.com/officialimage/pushgateway
 #  solr:9.9.0: registry.cn-beijing.aliyuncs.com/officialimage/solr
