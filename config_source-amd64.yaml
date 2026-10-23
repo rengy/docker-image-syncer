@@ -78,4 +78,4 @@ images:
 #  portainer/agent:2.31.3-alpine: registry.cn-beijing.aliyuncs.com/officialimage/portainer-agent
 #  pandoc/extra:3.9.0-ubuntu: registry.cn-beijing.aliyuncs.com/officialimage/pandoc-extra
 #  gitlab/gitlab-ce:17.10.8-ce.0: registry.cn-beijing.aliyuncs.com/officialimage/gitlab-ce
-  ghcr.io/pickrui/flclash:0.8.99: registry.cn-beijing.aliyuncs.com/officialimage/flclash
+  ghcr.io/pickrui/flclash:0.9.1: registry.cn-beijing.aliyuncs.com/officialimage/flclash
