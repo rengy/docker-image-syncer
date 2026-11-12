@@ -29,12 +29,12 @@ images:
 #   goharbor/harbor-exporter:v2.7.0: registry.cn-beijing.aliyuncs.com/paas-k8s/harbor-exporter
 #  eclipse-temurin:8u482-b08-jdk-alpine,8u482-b08-jre-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-amd64
 #  eclipse-temurin:8u482-b08-jdk-noble,8u482-b08-jre-noble: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-amd64
-  eclipse-temurin:17.0.21_9-jre-alpine,17.0.21_9-jdk-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-amd64
-  eclipse-temurin:17.0.21_9-jre-noble,17.0.21_9-jdk-noble: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-amd64
-  eclipse-temurin:21.0.13_9-jre-alpine,21.0.13_9-jdk-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-amd64
-  eclipse-temurin:21.0.13_9-jre-noble,21.0.13_9-jdk-noble: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-amd64
-  eclipse-temurin:25.0.5_8-jre-alpine,25.0.5_8-jdk-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-amd64
-  eclipse-temurin:25.0.5_8-jre-noble,25.0.5_8-jdk-noble: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-amd64
+#  eclipse-temurin:17.0.21_9-jre-alpine,17.0.21_9-jdk-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-amd64
+#  eclipse-temurin:17.0.21_9-jre-noble,17.0.21_9-jdk-noble: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-amd64
+#  eclipse-temurin:21.0.13_9-jre-alpine,21.0.13_9-jdk-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-amd64
+#  eclipse-temurin:21.0.13_9-jre-noble,21.0.13_9-jdk-noble: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-amd64
+#  eclipse-temurin:25.0.5_8-jre-alpine,25.0.5_8-jdk-alpine: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-amd64
+#  eclipse-temurin:25.0.5_8-jre-noble,25.0.5_8-jdk-noble: registry.cn-beijing.aliyuncs.com/officialimage/eclipse-temurin-amd64
 #  maven:3.10.0-eclipse-temurin-25-alpine,3.10.0-eclipse-temurin-25: registry.cn-beijing.aliyuncs.com/officialimage/maven-amd64
 #  maven:3.10.0-eclipse-temurin-21-alpine,3.10.0-eclipse-temurin-21: registry.cn-beijing.aliyuncs.com/officialimage/maven-amd64
 #  maven:3.10.0-eclipse-temurin-17-alpine,3.10.0-eclipse-temurin-17: registry.cn-beijing.aliyuncs.com/officialimage/maven-amd64
@@ -53,7 +53,7 @@ images:
 #  oliver006/redis_exporter:v1.83.0: registry.cn-beijing.aliyuncs.com/officialimage/redis_exporter-amd64
 #  mysql:8.0.46-oracle: registry.cn-beijing.aliyuncs.com/officialimage/mysql-amd64
 #  prom/mysqld-exporter:v0.19.0: registry.cn-beijing.aliyuncs.com/officialimage/mysqld-exporter-amd64
-#  mongo:7.0.45: registry.cn-beijing.aliyuncs.com/officialimage/mongo-amd64
+  mongo:7.0.48: registry.cn-beijing.aliyuncs.com/officialimage/mongo-amd64
 #  mongo-express:1.0.2-20-alpine3.19: registry.cn-beijing.aliyuncs.com/officialimage/mongo-express-amd64
 #  percona/mongodb_exporter:0.54.0: registry.cn-beijing.aliyuncs.com/officialimage/mongodb-exporter-amd64
 #  postgres:17.6-bookworm: registry.cn-beijing.aliyuncs.com/officialimage/postgres-amd64
